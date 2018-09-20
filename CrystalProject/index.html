@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>The Amazing Crystal Game!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Welcome to the amazing Crystal Game!</h1>
+      <p class="lead">Created by: Azeem Yassim</p>
+    </div>
+  </div>
+
+  <div class="container bg-primary">
+    <h1>Here are the Rules of the Game</h1>
+    <ol>
+      <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+      <li>There are four crystals below.</li>
+      <ul>
+        <li id="blue">Diamond</li>
+        <li id="green">Emerald</li>
+        <li id="red">Ruby</li>
+        <li id="yellow">Sapphire</li>
+
+      </ul>
+      <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+      <li>You win the game by matching your points against the computers random guess.</li>
+      <li>You lose if you miscalculate and go over the primary #.</li>
+      <li>The value of each crystal is hidden from you until you click on it.</li>
+      <li>Each time when the game starts, the game will change the values of each crystal.</li>
+    </ol>
+  
+
+
+  <div class="targetNumber">
+    <h2>Target Number is:
+      <span id="randomNumber"></span>
+    </h2>
+  </div>
+
+  <div class="winsAndLosses">
+    <h2>Wins:
+      <span id="numberWins"></span>
+      </br>
+      Losses:
+      <span id="numberLosses"></span>
+    </h2>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-md-3 col-sm-6 mb-4">
+      
+        <img class="img-fluid margin-bottom: 20px;" src="C:\Users\Azeem\Desktop\TestingGround\CrystalProject\assets\images\diam.jpg"
+          class=gemImage id="one" alt="blue Gem">
+      </a>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="C:\Users\Azeem\Desktop\TestingGround\CrystalProject\assets\images\emerald.jpg"
+          class=gemImage id="two" alt="red Gem">
+      </a>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="C:\Users\Azeem\Desktop\TestingGround\CrystalProject\assets\images\ruby.jpg" class=gemImage
+          id="three" alt="green Gem">
+      </a>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="C:\Users\Azeem\Desktop\TestingGround\CrystalProject\assets\images\saph.jpg" class=gemImage
+          id="four" alt="yellow Gem">
+      </a>
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+
+  <div class="userTotal">
+    <h2>Your total score is:
+      <span id="finalTotal"></span>
+    </h2>
+  </div>
+
+</div>
+
+
+  <!-- Optional JavaScript -->
+  <script type="text/javascript" src="assets/javascript.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
